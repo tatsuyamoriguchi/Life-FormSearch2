@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		8C4D4A5F2AEEC1E80066367C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D4A5E2AEEC1E80066367C /* AppDelegate.swift */; };
 		8C4D4A612AEEC1E80066367C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D4A602AEEC1E80066367C /* SceneDelegate.swift */; };
-		8C4D4A632AEEC1E80066367C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D4A622AEEC1E80066367C /* ViewController.swift */; };
 		8C4D4A662AEEC1E80066367C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4D4A642AEEC1E80066367C /* Main.storyboard */; };
 		8C4D4A682AEEC1E90066367C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4D4A672AEEC1E90066367C /* Assets.xcassets */; };
 		8C4D4A6B2AEEC1E90066367C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4D4A692AEEC1E90066367C /* LaunchScreen.storyboard */; };
+		8C4D4A732AEEC4460066367C /* EOLSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D4A722AEEC4460066367C /* EOLSearchTableViewController.swift */; };
+		8C4D4A752AEEC4730066367C /* EOLItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D4A742AEEC4730066367C /* EOLItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8C4D4A5B2AEEC1E80066367C /* Life-FormSearch2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life-FormSearch2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4D4A5E2AEEC1E80066367C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C4D4A602AEEC1E80066367C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8C4D4A622AEEC1E80066367C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C4D4A652AEEC1E80066367C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C4D4A672AEEC1E90066367C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C4D4A6A2AEEC1E90066367C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C4D4A6C2AEEC1E90066367C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4D4A722AEEC4460066367C /* EOLSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLSearchTableViewController.swift; sourceTree = "<group>"; };
+		8C4D4A742AEEC4730066367C /* EOLItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				8C4D4A5E2AEEC1E80066367C /* AppDelegate.swift */,
 				8C4D4A602AEEC1E80066367C /* SceneDelegate.swift */,
-				8C4D4A622AEEC1E80066367C /* ViewController.swift */,
 				8C4D4A642AEEC1E80066367C /* Main.storyboard */,
 				8C4D4A672AEEC1E90066367C /* Assets.xcassets */,
 				8C4D4A692AEEC1E90066367C /* LaunchScreen.storyboard */,
 				8C4D4A6C2AEEC1E90066367C /* Info.plist */,
+				8C4D4A722AEEC4460066367C /* EOLSearchTableViewController.swift */,
+				8C4D4A742AEEC4730066367C /* EOLItemViewController.swift */,
 			);
 			path = "Life-FormSearch2";
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C4D4A632AEEC1E80066367C /* ViewController.swift in Sources */,
+				8C4D4A752AEEC4730066367C /* EOLItemViewController.swift in Sources */,
 				8C4D4A5F2AEEC1E80066367C /* AppDelegate.swift in Sources */,
+				8C4D4A732AEEC4460066367C /* EOLSearchTableViewController.swift in Sources */,
 				8C4D4A612AEEC1E80066367C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
