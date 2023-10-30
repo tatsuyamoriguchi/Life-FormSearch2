@@ -47,14 +47,62 @@
                     <view key="view" contentMode="scaleToFill" id="jrb-Qv-zEq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ItA-jT-sdG">
+                                <rect key="frame" x="10" y="113" width="373" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Pwc-GN-NtM"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PB-9a-KMb">
+                                <rect key="frame" x="10" y="418" width="83" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="XaI-St-Kq1"/>
+                                    <constraint firstAttribute="height" constant="21" id="qOW-v7-Iyr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWv-9j-wdz">
+                                <rect key="frame" x="103" y="418" width="280" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="kRl-Sk-69W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yjc-rg-5FT">
+                                <rect key="frame" x="10" y="373" width="373" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Dmk-Qa-Dgu"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="License"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="NX8-VN-7yu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ItA-jT-sdG" firstAttribute="leading" secondItem="NX8-VN-7yu" secondAttribute="leading" constant="10" id="JFX-9F-inG"/>
+                            <constraint firstItem="NX8-VN-7yu" firstAttribute="trailing" secondItem="ItA-jT-sdG" secondAttribute="trailing" constant="10" id="Nrc-AN-3re"/>
+                            <constraint firstItem="aWv-9j-wdz" firstAttribute="leading" secondItem="8PB-9a-KMb" secondAttribute="trailing" constant="10" id="UEe-iH-Luh"/>
+                            <constraint firstItem="aWv-9j-wdz" firstAttribute="top" secondItem="Yjc-rg-5FT" secondAttribute="bottom" constant="10" id="Xzc-y6-KdJ"/>
+                            <constraint firstItem="Yjc-rg-5FT" firstAttribute="top" secondItem="ItA-jT-sdG" secondAttribute="bottom" constant="10" id="hue-Gj-hHs"/>
+                            <constraint firstItem="NX8-VN-7yu" firstAttribute="trailing" secondItem="aWv-9j-wdz" secondAttribute="trailing" constant="10" id="oMx-5A-DFP"/>
+                            <constraint firstItem="ItA-jT-sdG" firstAttribute="top" secondItem="NX8-VN-7yu" secondAttribute="top" constant="10" id="qCu-33-aVm"/>
+                            <constraint firstItem="Yjc-rg-5FT" firstAttribute="leading" secondItem="NX8-VN-7yu" secondAttribute="leading" constant="10" id="rSc-Bz-62M"/>
+                            <constraint firstItem="8PB-9a-KMb" firstAttribute="top" secondItem="Yjc-rg-5FT" secondAttribute="bottom" constant="10" id="uYU-cy-nVQ"/>
+                            <constraint firstItem="8PB-9a-KMb" firstAttribute="leading" secondItem="NX8-VN-7yu" secondAttribute="leading" constant="10" id="xOd-r4-ZHc"/>
+                            <constraint firstItem="NX8-VN-7yu" firstAttribute="trailing" secondItem="Yjc-rg-5FT" secondAttribute="trailing" constant="10" id="ykF-xp-Kjf"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qBf-r5-a5b"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UBd-nP-H3H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1408" y="7"/>
+            <point key="canvasLocation" x="1406.8702290076335" y="6.3380281690140849"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pJF-Fc-16c">
