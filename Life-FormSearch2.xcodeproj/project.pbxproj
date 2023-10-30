@@ -14,6 +14,7 @@
 		8C4D4A6B2AEEC1E90066367C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4D4A692AEEC1E90066367C /* LaunchScreen.storyboard */; };
 		8C4D4A732AEEC4460066367C /* EOLSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D4A722AEEC4460066367C /* EOLSearchTableViewController.swift */; };
 		8C4D4A752AEEC4730066367C /* EOLItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4D4A742AEEC4730066367C /* EOLItemViewController.swift */; };
+		8C60588F2AEF841800661D0D /* EOLItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C60588E2AEF841800661D0D /* EOLItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8C4D4A6C2AEEC1E90066367C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C4D4A722AEEC4460066367C /* EOLSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLSearchTableViewController.swift; sourceTree = "<group>"; };
 		8C4D4A742AEEC4730066367C /* EOLItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLItemViewController.swift; sourceTree = "<group>"; };
+		8C60588E2AEF841800661D0D /* EOLItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EOLItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				8C4D4A6C2AEEC1E90066367C /* Info.plist */,
 				8C4D4A722AEEC4460066367C /* EOLSearchTableViewController.swift */,
 				8C4D4A742AEEC4730066367C /* EOLItemViewController.swift */,
+				8C60588E2AEF841800661D0D /* EOLItem.swift */,
 			);
 			path = "Life-FormSearch2";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				8C4D4A752AEEC4730066367C /* EOLItemViewController.swift in Sources */,
 				8C4D4A5F2AEEC1E80066367C /* AppDelegate.swift in Sources */,
+				8C60588F2AEF841800661D0D /* EOLItem.swift in Sources */,
 				8C4D4A732AEEC4460066367C /* EOLSearchTableViewController.swift in Sources */,
 				8C4D4A612AEEC1E80066367C /* SceneDelegate.swift in Sources */,
 			);
