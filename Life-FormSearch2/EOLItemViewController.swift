@@ -9,6 +9,20 @@ import UIKit
 
 class EOLItemViewController: UIViewController {
 
+    
+    @IBOutlet var imageView: UIImageView!
+    @IBOutlet var licenseButton: UIButton!
+    @IBOutlet var taxonomyLabel: UILabel!
+    @IBOutlet var scientificNameLabel: UILabel!
+    @IBOutlet var kingdomLabel: UILabel!
+    @IBOutlet var phylumLabel: UILabel!
+    @IBOutlet var classLabel: UILabel!
+    @IBOutlet var orderLabel: UILabel!
+    @IBOutlet var familyLabel: UILabel!
+    @IBOutlet var genusLabel: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
