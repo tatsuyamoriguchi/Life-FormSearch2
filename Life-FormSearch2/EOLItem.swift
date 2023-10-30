@@ -18,3 +18,7 @@ struct EOLItem: Codable {
         case content = "commonName"
     }
 }
+
+struct SearchResponse: Codable {
+    var resutls: [EOLItem]
+}

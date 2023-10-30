@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class EOLItemViewController: UIViewController {
 
@@ -29,7 +30,13 @@ class EOLItemViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func licenseButtonTapped(_ sender: Any) {
+        if let url = URL(string: "") {
+            let safariViewController = SFSafariViewController(url: url)
+            present(safariViewController, animated: true, completion: nil)
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -1,0 +1,52 @@
+//
+//  EOLItemDetail.swift
+//  Life-FormSearch2
+//
+//  Created by Tatsuya Moriguchi on 10/30/23.
+//
+
+import Foundation
+
+struct TaxonConcept: Codable {
+    var accordingTo: String?
+    var identifier: Int
+    
+    enum CodingKeys: String, CodingKey {
+        case accordingTo = "nameAccordingTo"
+        case identifier
+    }
+}
+
+struct Agent: Codable {
+    var fullName: String?
+    var role: String?
+    
+    enum CodingKeys: String, CodingKey {
+        case fullName = "full_name"
+        case role
+    }
+}
+
+struct DataObject: Codable {
+    var mimeType: String?
+    var agents: [String]?
+    var rightsHolder: String?
+    var eolMediaURL: String?
+    var license: String?
+
+}
+
+struct EOLItemDetails: Codable {
+    var scientificName: String?
+    var dataObjects: [DataObject]?
+    var taxonConcept: [TaxonConcept]?
+}
+
+struct EOLItemDetail: Codable {
+    var details: EOLItemDetails
+    
+    enum CodingKeys: String, CodingKey {
+        case details = "taxonConcept"
+    }
+}
+

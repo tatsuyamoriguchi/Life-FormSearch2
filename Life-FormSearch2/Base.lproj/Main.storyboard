@@ -78,6 +78,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="License"/>
+                                <connections>
+                                    <action selector="licenseButtonTapped:" destination="MwH-oi-xeX" eventType="touchUpInside" id="OZQ-Dd-RFu"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scientific Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYD-Ac-NSi">
                                 <rect key="frame" x="10" y="449" width="80" height="21"/>
