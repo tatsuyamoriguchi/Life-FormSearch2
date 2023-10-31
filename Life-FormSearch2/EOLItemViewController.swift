@@ -137,7 +137,7 @@ class EOLItemViewController: UIViewController {
     }
     
     @IBAction func licenseButtonTapped(_ sender: Any) {
-        if let url = URL(string: "") {
+        if let licenseStr = license, let url = URL(string: licenseStr) {
             let safariViewController = SFSafariViewController(url: url)
             present(safariViewController, animated: true, completion: nil)
         }
