@@ -29,9 +29,9 @@ struct Agent: Codable {
 
 struct DataObject: Codable {
     var mimeType: String?
-    var agents: [String]?
+    var agents: [Agent]?
     var rightsHolder: String?
-    var eolMediaURL: String?
+    var eolMediaURL: URL?
     var license: String?
 
 }
@@ -39,7 +39,7 @@ struct DataObject: Codable {
 struct EOLItemDetails: Codable {
     var scientificName: String?
     var dataObjects: [DataObject]?
-    var taxonConcept: [TaxonConcept]?
+    var taxonConcepts: [TaxonConcept]?
 }
 
 struct EOLItemDetail: Codable {

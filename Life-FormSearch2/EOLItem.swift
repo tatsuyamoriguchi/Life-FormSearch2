@@ -9,16 +9,16 @@ import Foundation
 
 struct EOLItem: Codable {
     var id: Int
-    var title: String
-    var content: String
+    var scientificName: String
+    var commonName: String
     
     enum CodingKeys: String, CodingKey {
         case id
-        case title = "scientificName"
-        case content = "commonName"
+        case scientificName = "title"
+        case commonName = "content"
     }
 }
 
 struct SearchResponse: Codable {
-    var resutls: [EOLItem]
+    var results: [EOLItem]
 }

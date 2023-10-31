@@ -8,10 +8,10 @@
 import Foundation
 
 struct Ancestor: Codable {
-    var scinetificName: String
+    var scientificName: String
     var taxonRank: String?
 }
 struct EOLHierarchy: Codable {
-    var ancestor: [Ancestor]?
+    var ancestors: [Ancestor]?
     
 }
